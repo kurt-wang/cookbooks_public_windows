@@ -102,19 +102,7 @@
         ],
         "description": "Defines the shell command to run. (e.g., dir >> c:\\dir.txt)",
         "display_name": "Task command"
-		},
-		"utilities/MYNAME": {
-		"required": "required",
-		"calculated": false,
-		"choice": [
-			],
-		"type": "string",
-			"recipes": [
-		"utilities::cheftutorial"
-			],
-		"display_name": "Please enter your name",
-		"description": "This is your name"
-		},
+      },
       "dns/dns_id": {
         "required": "required",
         "calculated": false,
@@ -143,7 +131,6 @@
       "utilities::delete_scheduled_task": "Deletes the 'rs_scheduled_task' scheduled task under the 'administrator' user. Uses the SCHTASKS Windows command",
       "utilities::online_attached_drives": "Change 'Offline' status to 'Online' for the attached drives",
       "utilities::default": "Not yet implemented",
-	  "utilities::cheftutorial": "Chef Tutorial",
       "utilities::create_scheduled_task": "Creates the 'rs_scheduled_task' scheduled task under the 'administrator' user. Uses the SCHTASKS Windows command",
       "utilities::change_admin_password": "Changes the administrator password",
       "utilities::system_shutdown": "Shuts down the system"
